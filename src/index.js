@@ -109,6 +109,7 @@ export const Promised = {
               this.error = err
               this.resolved = true
             }
+            throw err
           })
       },
       immediate: true,
